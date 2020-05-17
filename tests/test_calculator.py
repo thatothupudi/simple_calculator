@@ -14,11 +14,11 @@ def test_product_of_two_numbers():
 def test_product_of_many_numbers():
     assert calculator.multiply(1,7,1) == 7
 
-# def test_divide_two_numbers():
-#     assert calculator.divide(1,2) == 0.5
+def test_divide_two_numbers():
+    assert calculator.divide(1,2) == 0.5
 
-# def tets_divide_many_numbers():
-#     assert calculator.divide(2,1) == 2
+def tets_divide_many_numbers():
+    assert calculator.divide(2,1) == 2
     
     
 
